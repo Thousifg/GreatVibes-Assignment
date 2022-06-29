@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  const initialdata = {
+  const mainData = {
     username: "",
     name: "",
     email: "",
@@ -12,7 +12,7 @@ function App() {
     state: "",
   };
 
-  const [formdata, setFormdata] = useState(initialdata);
+  const [formdata, setFormdata] = useState(mainData);
   const [err, setErrs] = useState({});
   const [submit, setSubmit] = useState(false);
 
